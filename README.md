@@ -1,73 +1,32 @@
-# Welcome to your Lovable project
+# 주제  
+**주변 코인 세탁소 정보 및 세탁기 실시간 사용 현황 확인 서비스**  
+사용자가 현재 위치 기반으로 인근 코인 세탁소를 확인하고, 각 세탁소의 세탁기/건조기 사용 가능 여부와 남은 사용 시간을 실시간으로 확인할 수 있는 서비스
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/db6514d9-adea-493d-8a17-86ba32c6e5f8
+## 페르소나  
+혼자 사는 대학생 - 박수진 (23세)  
+직업: 대학교 4학년  
+라이프스타일: 자취 중, 학교 수업과 과제를 병행하며 아르바이트도 함  
+목표: 시간을 절약하고 생활 효율을 높이는 것  
+니즈: 근처 세탁소의 세탁기 사용 여부 및 소요 시간 실시간 확인  
+페인 포인트:  
+- 세탁기 사용하러 갔더니 사용 중일 때 허탕  
+- 빨래 도중 다른 사람이 세탁기를 쓰고 있어 불편  
+- 바쁜 일상 중 세탁 타이밍을 맞추기 어려움  
 
-## How can I edit this code?
+## 사용자 시나리오 및 스토리
 
-There are several ways of editing your application.
+### 바쁜 대학생의 빨래 루틴  
+**상황:** 박수진은 아침 수업 전에 빨래를 끝내고 싶지만, 세탁소에 가서 세탁기가 비어있을지 확신이 없음  
 
-**Use Lovable**
+**사용자 시나리오:**  
+1. 스마트폰으로 '코인세탁소 확인' 앱 실행  
+2. 현재 위치 기반으로 가까운 세탁소 목록 확인  
+3. 특정 세탁소 선택 → 사용 가능한 세탁기/건조기 수 및 남은 시간 확인  
+4. 비어있는 세탁기가 있는 세탁소 선택 후 바로 이동  
+5. 세탁 진행 중, 앱으로 남은 시간 알림 받음  
+6. 알림 받고 세탁 완료 시간에 맞춰 세탁소로 돌아감  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/db6514d9-adea-493d-8a17-86ba32c6e5f8) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/db6514d9-adea-493d-8a17-86ba32c6e5f8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**사용자 스토리:**  
+"혼자 사는 대학생으로서, 저는 세탁소에 괜히 갔다가 기계가 다 찼다는 걸 알게 되는 일이 싫습니다. 앱으로 미리 사용 가능 여부와 남은 시간을 확인할 수 있다면, 시간을 절약하고 일정을 효율적으로 관리할 수 있습니다."
