@@ -4,6 +4,11 @@
 
 ---
 
+# 배포 링크
+https://laundry-time-saver.lovable.app/
+
+---
+
 ## 페르소나  
 혼자 사는 대학생 - 박수진 (23세)  
 직업: 대학교 4학년  
